@@ -1,10 +1,10 @@
-#hero, #sec article, .footer {
+#hero, #sec article, #gallery .column, .footer {
   display: flex;
   justify-content: center;
   align-items: center; }
 
 * {
-  font-family: Lato; }
+  font-family: Ubuntu; }
 
 #nav {
   position: absolute;
@@ -13,6 +13,8 @@
   #nav .iconify {
     font-size: 5rem;
     color: #ecf0f1; }
+    #nav .iconify:hover {
+      color: #1abc9c; }
 
 #hero {
   height: 100vh;
@@ -21,15 +23,30 @@
   flex-direction: column; }
   #hero .title {
     font-size: 4rem; }
+    @media screen and (max-width: 550px) {
+      #hero .title {
+        font-size: 2rem; } }
   #hero .subtitle {
     width: 45%; }
-  #hero .title, #hero .subtitle {
+    @media screen and (max-width: 550px) {
+      #hero .subtitle {
+        width: 100%;
+        font-size: 1rem; } }
+  #hero .title,
+  #hero .subtitle {
     color: #ecf0f1;
     text-align: center; }
   #hero hr {
     color: #ecf0f1;
     height: 5px;
     width: 30%; }
+  @media screen and (max-width: 550px) {
+    #hero {
+      height: 80vh; } }
+
+@media screen and (max-width: 550px) {
+  #sec {
+    display: none; } }
 
 #sec article {
   flex-direction: column;
@@ -37,12 +54,31 @@
 
 #gallery {
   text-align: center; }
+  #gallery .column:hover {
+    transition: .3s; }
+    #gallery .column:hover span {
+      color: #34495e;
+      font-weight: bolder; }
+  #gallery span {
+    position: absolute;
+    color: transparent;
+    font-size: 2rem; }
+  #gallery img {
+    position: relative;
+    transition: .3s; }
+    #gallery img:hover {
+      transition: .3s;
+      box-shadow: 0px 7px 7px 2px rgba(33, 33, 33, 0.5);
+      opacity: .5; }
 
 .footer {
   flex-direction: column;
   color: #34495e;
   height: 100%; }
   .footer .iconify {
-    font-size: 3rem; }
+    font-size: 3rem;
+    padding: 2%; }
+    .footer .iconify:hover {
+      color: #1abc9c; }
 
 /*# sourceMappingURL=style.css.map */
