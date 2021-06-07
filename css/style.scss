@@ -82,16 +82,22 @@ $red:#e74c3c;
 }
 
 #sec {
+    img{
+        background-color: linear-gradient(rgba(54,33,44,0.2),rgba(54,33,44,0.2));
+    }
     @include mobile {
         display: none;
     }
-}
-
-#sec article {
+    article {
     @extend %center;
     flex-direction: column;
     height: 100%;
+    .iconify{
+        font-size: 3rem;
+    }
 }
+}
+
 
 #gallery {
     text-align: center;

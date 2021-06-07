@@ -44,13 +44,16 @@
     #hero {
       height: 80vh; } }
 
+#sec img {
+  background-color: linear-gradient(rgba(54, 33, 44, 0.2), rgba(54, 33, 44, 0.2)); }
 @media screen and (max-width: 550px) {
   #sec {
     display: none; } }
-
 #sec article {
   flex-direction: column;
   height: 100%; }
+  #sec article .iconify {
+    font-size: 3rem; }
 
 #gallery {
   text-align: center; }
