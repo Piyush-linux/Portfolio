@@ -5,7 +5,7 @@
 
 ```yaml
 !Assets
-Font: Lato
+Font: Ubuntu
 Color: #42484C , #FFFFFF 
 
 !Wireframe
