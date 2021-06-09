@@ -4,7 +4,24 @@
   align-items: center; }
 
 * {
-  font-family: Ubuntu; }
+  font-family: Signika Negative; }
+  * .iconify {
+    font-size: 3rem; }
+
+.txt {
+  color: #34495e; }
+
+.tit {
+  font-size: 3rem;
+  font-weight: lighter;
+  color: #323030;
+  letter-spacing: 2px;
+  padding: 5%;
+  text-transform: uppercase;
+  text-align: center; }
+  @media screen and (max-width: 550px) {
+    .tit {
+      font-size: 2rem; } }
 
 #nav {
   position: absolute;
@@ -22,7 +39,8 @@
   background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat center/cover;
   flex-direction: column; }
   #hero .title {
-    font-size: 4rem; }
+    font-size: 4rem;
+    font-family: Inter; }
     @media screen and (max-width: 550px) {
       #hero .title {
         font-size: 2rem; } }
@@ -31,7 +49,7 @@
     @media screen and (max-width: 550px) {
       #hero .subtitle {
         width: 100%;
-        font-size: 1rem; } }
+        font-size: 1.5rem; } }
   #hero .title,
   #hero .subtitle {
     color: #ecf0f1;
@@ -42,10 +60,8 @@
     width: 30%; }
   @media screen and (max-width: 550px) {
     #hero {
-      height: 80vh; } }
+      height: 100vh; } }
 
-#sec img {
-  background-color: linear-gradient(rgba(54, 33, 44, 0.2), rgba(54, 33, 44, 0.2)); }
 @media screen and (max-width: 550px) {
   #sec {
     display: none; } }
@@ -54,6 +70,25 @@
   height: 100%; }
   #sec article .iconify {
     font-size: 3rem; }
+
+#feature .column {
+  text-align: center; }
+  @media screen and (max-width: 550px) {
+    #feature .column {
+      margin-top: 2rem; } }
+#feature .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+#feature .content {
+  color: #34495e;
+  width: 90%;
+  font-size: 1.2rem; }
+  @media screen and (max-width: 550px) {
+    #feature .content {
+      width: 100%;
+      font-size: 1rem; } }
 
 #gallery {
   text-align: center; }
@@ -71,7 +106,7 @@
     transition: .3s; }
     #gallery img:hover {
       transition: .3s;
-      box-shadow: 0px 7px 7px 2px rgba(33, 33, 33, 0.5);
+      box-shadow: 0px 7px 10px 2px rgba(33, 33, 33, 0.5);
       opacity: .5; }
 
 .footer {
@@ -79,8 +114,8 @@
   color: #34495e;
   height: 100%; }
   .footer .iconify {
-    font-size: 3rem;
-    padding: 2%; }
+    padding: 2%;
+    color: #323030; }
     .footer .iconify:hover {
       color: #1abc9c; }
 
