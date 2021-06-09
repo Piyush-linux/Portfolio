@@ -6,7 +6,7 @@ https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137
 
 ```yaml
 !Assets
-Font: Lato
+Font: Ubuntu
 Color: #42484C , #FFFFFF 
 
 !Wireframe
