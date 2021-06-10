@@ -1,10 +1,13 @@
+@font-face {
+  font-family: Kano;
+  src: url(../otf/Kano.otf); }
 #hero, #sec article, #gallery .column, .footer {
   display: flex;
   justify-content: center;
   align-items: center; }
 
 * {
-  font-family: Signika Negative; }
+  font-family: Kano; }
   * .iconify {
     font-size: 3rem; }
 
@@ -39,8 +42,7 @@
   background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat center/cover;
   flex-direction: column; }
   #hero .title {
-    font-size: 4rem;
-    font-family: Inter; }
+    font-size: 4rem; }
     @media screen and (max-width: 550px) {
       #hero .title {
         font-size: 2rem; } }

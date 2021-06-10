@@ -11,6 +11,10 @@ $black:#34495e;
 $dark:#323030;
 $red:#e74c3c;
 // pre
+@font-face {
+  font-family: Kano;
+  src: url(../otf/Kano.otf);
+}
 %center {
     display: flex;
     justify-content: center;
@@ -18,7 +22,7 @@ $red:#e74c3c;
 }
 
 * {
-    font-family: Signika Negative;
+    font-family: Kano;
     .iconify{font-size: 3rem;}
 }
 .txt{
@@ -66,7 +70,6 @@ $red:#e74c3c;
 
     .title {
         font-size: 4rem;
-        font-family: Inter;
         @include mobile() {
             font-size: 2rem;
         }
