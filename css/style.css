@@ -39,7 +39,7 @@
 #hero {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat fixed center/cover;
   flex-direction: column; }
   #hero .title {
     font-size: 4rem; }
@@ -73,24 +73,26 @@
   #sec article .iconify {
     font-size: 3rem; }
 
-#feature .column {
-  text-align: center; }
-  @media screen and (max-width: 550px) {
-    #feature .column {
-      margin-top: 2rem; } }
-#feature .card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-#feature .content {
-  color: #34495e;
-  width: 90%;
-  font-size: 1.2rem; }
-  @media screen and (max-width: 550px) {
-    #feature .content {
-      width: 100%;
-      font-size: 1rem; } }
+#feature {
+  background: url("../img/ill/bg.svg") no-repeat fixed center/cover; }
+  #feature .column {
+    text-align: center; }
+    @media screen and (max-width: 550px) {
+      #feature .column {
+        margin-top: 2rem; } }
+  #feature .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  #feature .content {
+    color: #34495e;
+    width: 90%;
+    font-size: 1.2rem; }
+    @media screen and (max-width: 550px) {
+      #feature .content {
+        width: 100%;
+        font-size: 1rem; } }
 
 #gallery {
   text-align: center; }
@@ -113,11 +115,10 @@
 
 .footer {
   flex-direction: column;
-  color: #34495e;
   height: 100%; }
   .footer .iconify {
     padding: 2%;
-    color: #323030; }
+    color: #fff; }
     .footer .iconify:hover {
       color: #1abc9c; }
 

@@ -9,7 +9,12 @@ $white: #ecf0f1;
 $teal:#1abc9c;
 $black:#34495e;
 $dark:#323030;
-$red:#e74c3c;
+$red:#EB144C;
+$blue:#0693E3;
+$purple:#9900EF;
+$yellow:#FCB900;
+$green:#00D084;
+
 // pre
 @font-face {
   font-family: Kano;
@@ -64,7 +69,7 @@ $red:#e74c3c;
 #hero {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat center / cover;
+    background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat fixed center / cover;
     flex-direction: column;
     @extend %center;
 
@@ -117,6 +122,7 @@ $red:#e74c3c;
 }
 // featuer
 #feature{
+    background: url('../img/ill/bg.svg') no-repeat fixed center / cover;
     .column{
         text-align:center;
         
@@ -179,13 +185,12 @@ $red:#e74c3c;
 .footer {
     @extend %center;
     flex-direction: column;
-    // background-color: $black;
-    color: $black;
+    // color: $black;
     height: 100%;
 
     .iconify {
         padding: 2%;
-        color:#323030;
+        color:#fff;
         &:hover {
             color: $teal;
         }
