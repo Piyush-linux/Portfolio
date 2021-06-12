@@ -3,18 +3,21 @@ __Wireframe__
 - [x] mk foot icon light black
 - [ ] end of evry PJ add created by piyush
 - [x] page title and SEO : meta tag's 
-- [ ] 
+- [ ] make portfolioo project hover text uppercase ALL
 
 __styling__
-- [ ] add animation
+- [x] add animation
 - [ ] pre-loader
 
 _projects_
-- [ ] Add project's : 
-- [ ] Vue(reusable)
-- [ ] API(weather,pokemon,unsplash)
-- [ ] JS
 - [ ] Web(responsive,clone,animated)
+- [ ] JS
+- [ ] API(weather,pokemon,unsplash)
+- [ ] Vue(reusable)
+- [ ] Flask
+- [ ] Express
+- [ ] MongoDB
+- [ ] Fill Stack
 
 
 __Responsive__
