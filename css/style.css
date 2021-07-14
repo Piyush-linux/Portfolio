@@ -1,1 +1,128 @@
-@font-face{font-family:Kano;src:url(../otf/Kano.otf)}#gallery .column,#hero,#sec article,.footer{display:flex;justify-content:center;align-items:center}*{font-family:Kano}* .iconify{font-size:3rem}.txt{color:#34495e}.tit{font-size:3rem;font-weight:lighter;color:#323030;letter-spacing:2px;padding:5%;text-transform:uppercase;text-align:center}@media screen and (max-width:550px){.tit{font-size:1.7rem}}#nav{position:absolute;width:100%;text-align:right}#nav .iconify{font-size:5rem;color:#ecf0f1}#nav .iconify:hover{color:#1abc9c}#hero{height:100vh;width:100vw;background:linear-gradient(rgba(13,13,13,.1),rgba(13,13,13,.1)),url(../img/header.jpg) no-repeat fixed center/cover;flex-direction:column}#hero .title{font-size:4rem}@media screen and (max-width:550px){#hero .title{font-size:2rem}}#hero .subtitle{width:45%}@media screen and (max-width:550px){#hero .subtitle{width:100%;font-size:1.5rem}}#hero .subtitle,#hero .title{color:#ecf0f1;text-align:center}#hero hr{color:#ecf0f1;height:5px;width:30%}@media screen and (max-width:550px){#hero{height:100vh}}@media screen and (max-width:550px){#sec{display:none}}#sec article{flex-direction:column;height:100%}#sec article .iconify{font-size:3rem}#feature{background:url(../img/ill/bg.svg) no-repeat fixed center/cover}#feature .column{text-align:center}@media screen and (max-width:550px){#feature .column{margin-top:2rem}}#feature .card-content{display:flex;flex-direction:column;align-items:center;justify-content:center}#feature .content{color:#34495e;width:90%;font-size:1.2rem}@media screen and (max-width:550px){#feature .content{width:100%;font-size:1rem}}#gallery{text-align:center}#gallery .column:hover{transition:.3s}#gallery .column:hover span{color:#34495e;font-weight:bolder}#gallery span{position:absolute;color:transparent;font-size:2rem}#gallery img{position:relative;transition:.3s}#gallery img:hover{transition:.3s;box-shadow:0 7px 10px 2px rgba(33,33,33,.5);opacity:.5}.footer{flex-direction:column;height:100%}.footer .iconify{padding:2%;color:#fff}.footer .iconify:hover{color:#1abc9c}
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+@font-face {
+  font-family: Kano;
+  src: url(../otf/Kano.otf); }
+#hero, #sec article, #gallery .column, .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.f2 {
+  font-family: Nothing You Could Do; }
+
+* {
+  font-family: Kano; }
+  * .iconify {
+    font-size: 3rem; }
+
+.txt {
+  color: #34495e; }
+
+.tit {
+  font-size: 3rem;
+  font-weight: lighter;
+  color: #323030;
+  letter-spacing: 2px;
+  padding: 5%;
+  text-transform: uppercase;
+  text-align: center; }
+  @media screen and (max-width: 550px) {
+    .tit {
+      font-size: 1.7rem; } }
+
+#nav {
+  position: absolute;
+  width: 100%; }
+  #nav .iconify {
+    font-size: 5rem;
+    color: #ecf0f1; }
+    #nav .iconify:hover {
+      color: #1abc9c; }
+
+#hero {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(13, 13, 13, 0.1), rgba(13, 13, 13, 0.1)), url("../img/header.jpg") no-repeat fixed center/cover;
+  flex-direction: column; }
+  #hero .title {
+    font-size: 4rem; }
+    @media screen and (max-width: 550px) {
+      #hero .title {
+        font-size: 2rem; } }
+  #hero .subtitle {
+    width: 45%; }
+    @media screen and (max-width: 550px) {
+      #hero .subtitle {
+        width: 100%;
+        font-size: 1.5rem; } }
+  #hero .title,
+  #hero .subtitle {
+    color: #ecf0f1;
+    text-align: center; }
+  #hero hr {
+    color: #ecf0f1;
+    height: 5px;
+    width: 30%; }
+  @media screen and (max-width: 550px) {
+    #hero {
+      height: 100vh; } }
+
+@media screen and (max-width: 550px) {
+  #sec {
+    display: none; } }
+#sec article {
+  flex-direction: column;
+  height: 100%; }
+  #sec article .iconify {
+    font-size: 3rem; }
+
+#feature {
+  background: url("../img/ill/bg.svg") no-repeat fixed center/cover; }
+  #feature .column {
+    text-align: center; }
+    @media screen and (max-width: 550px) {
+      #feature .column {
+        margin-top: 2rem; } }
+  #feature .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  #feature .content {
+    color: #34495e;
+    width: 90%;
+    font-size: 1.2rem; }
+    @media screen and (max-width: 550px) {
+      #feature .content {
+        width: 100%;
+        font-size: 1rem; } }
+
+#gallery {
+  text-align: center; }
+  #gallery .column:hover {
+    transition: .3s; }
+    #gallery .column:hover span {
+      color: #34495e;
+      font-weight: bolder; }
+  #gallery span {
+    position: absolute;
+    color: transparent;
+    font-size: 2rem; }
+  #gallery img {
+    position: relative;
+    transition: .3s; }
+    #gallery img:hover {
+      transition: .3s;
+      box-shadow: 0px 7px 10px 2px rgba(33, 33, 33, 0.5);
+      opacity: .5; }
+
+.footer {
+  flex-direction: column;
+  height: 100%; }
+  .footer .iconify {
+    padding: 2%;
+    color: #fff; }
+    .footer .iconify:hover {
+      color: #1abc9c; }
+
+/*# sourceMappingURL=style.css.map */

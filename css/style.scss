@@ -1,3 +1,5 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 // media
 @mixin mobile() {
     @media screen and (max-width: 550px) {
@@ -14,18 +16,22 @@ $blue:#0693E3;
 $purple:#9900EF;
 $yellow:#FCB900;
 $green:#00D084;
+$f2: Nothing You Could Do;
 
 // pre
 @font-face {
   font-family: Kano;
   src: url(../otf/Kano.otf);
 }
+
 %center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.f2{
+    font-family: Nothing You Could Do;
+}
 * {
     font-family: Kano;
     .iconify{font-size: 3rem;}
@@ -52,7 +58,7 @@ $green:#00D084;
 #nav {
     position: absolute;
     width: 100%;
-    text-align: right;
+    // text-align: right;
 
     // display:flex;
     .iconify {
