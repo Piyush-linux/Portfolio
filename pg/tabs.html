@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+    .iconify {
+        font-size: 3rem;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-content.is-active {
+        display: block;
+    }
+    /* mail */
+
+    #mail .input , .textarea{
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: white;
+        letter-spacing: 2px;
+        color: #323030ad;
+    }
+    #mail .input:focus , .textarea:focus{
+        background-color: #d0cccc17;
+    }
+    #mail .label{
+        /*color: #424040a6;*/
+        color: grey;
+    }
+    #mail input[type='submit']{
+        width: 50%;
+        box-shadow: 0px 13px 18px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 13px 18px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 13px 18px -4px rgba(0,0,0,0.75);
+    }
+    </style>
+</head>
+
+<body>
+    <!-- tabs -->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <!-- tab_nav -->
+                <div class="column is-12 tabs is-medium">
+                    <ul>
+                        <!-- tab_nav_1 -->
+                        <li class="is-active"><a>
+                                <span class="icon is-medium">
+                                    <span class="iconify" data-icon="logos:bulma" data-inline="false"></span>
+                                </span>
+                            </a></li>
+                        <!-- tab_nav_2 -->
+                        <li><a>
+                                <span class="icon has-text-danger is-medium">
+                                    <span class="iconify" data-icon="file-icons:api-blueprint" data-inline="false"></span>
+                                </span>
+                            </a></li>
+                        <!-- tab_nav_3 -->
+                        <li><a>
+                                <span class="icon is-medium">
+                                    <span class="iconify" data-icon="logos:vue" data-inline="false"></span>
+                                </span>
+                            </a></li>
+                        <!-- tab_nav_4 -->
+                        <li><a>
+                                <span class="icon has-text-success is-medium">
+                                    <span class="iconify" data-icon="cib:node-js" data-inline="false"></span>
+                                </span>
+                            </a></li>
+                    </ul>
+                </div>
+                <!-- tab_con -->
+                <div class="column is-12 tabs-content">
+                    <!-- tab_con-1 -->
+                    <div class="tab-content is-active">
+                        <p>
+                            <div class="columns is-vcentered">
+                                <div class="column is-5">
+                                    <figure class="image">
+                                        <img src="../ill/tab1.svg">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <div class="box">
+                                        <h1 class="subtitle is-3 has-text-primary">
+                                            W E B S I T E
+                                        </h1>
+                                        <hr>
+                                        <div class="tags has-text-weight-bold">
+                                            <div class="tag is-danger">h t m l</div>
+                                            <div class="tag is-info">c s s</div>
+                                            <div class="tag is-primary">b u l m a</div>
+                                            <div class="tag is-warning is-light">s a s s</div>
+                                        </div>
+                                        <div class="is-block">
+                                            <div class="columns is-multiline is-vcentered">
+                                                <div class="column is-half">
+                                                    <figure class="image"></figure>
+                                                </div>
+                                                <div class="column is-half"></div>
+                                                <div class="column is-half"></div>
+                                                <div class="column is-half"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <!-- Tab_con-2 -->
+                    <div class="tab-content">
+                        <p>
+                            <div class="columns is-vcentered">
+                                <div class="column is-5">
+                                    <figure class="image">
+                                        <img src="../ill/tab2.svg">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <div class="box">
+                                        <h1 class="subtitle is-3 has-text-danger">
+                                            A P I
+                                        </h1>
+                                        <hr>
+                                        <div class="tags has-text-weight-bold">
+                                            <!-- <div class="tag">fetch</div> -->
+                                            <!-- <div class="tag">.env</div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <!-- Tab_con-3 -->
+                    <div class="tab-content">
+                        <p>
+                            <div class="columns is-vcentered">
+                                <div class="column is-5">
+                                    <figure class="image">
+                                        <img src="../ill/tab3.svg">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <div class="box">
+                                        <h1 class="subtitle is-3 has-text-grey">
+                                            V U E
+                                        </h1>
+                                        <hr>
+                                        <div class="tags has-text-weight-bold">
+                                            <div class="tag">vuex</div>
+                                            <div class="tag">vue-router</div>
+                                            <div class="tag">API</div>
+                                            <div class="tag">Vuetify</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <!-- Tab_con-4 -->
+                    <div class="tab-content ">
+                        <p>
+                            <div class="columns is-vcentered">
+                                <div class="column is-5">
+                                    <figure class="image">
+                                        <img src="../ill/tab4.svg">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <div class="box">
+                                        <h1 class="subtitle is-3 has-text-success">
+                                            N O D E
+                                        </h1>
+                                        <hr>
+                                        <div class="tags has-text-weight-bold">
+                                            <div class="tag is-success">express</div>
+                                            <div class="tag is-danger">body-parser</div>
+                                            <div class="tag is-info">JWT</div>
+                                            <div class="tag is-dark">dotenv</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- email -->
+    <section class="section has-background-white-bis" id="mail">
+        <div class="container">
+            <form action="https://formsubmit.co/4833c9fbb146b8aa44af84f7c8613403" method="POST" class="columns is-vcentered is-multiline">
+                <!-- name -->
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">Name</label>
+                            <input type="text" class="input" name="name" placeholder="ex: piyush" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- email -->
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">Email</label>
+                            <input type="email" class="input" name="email" placeholder="ex: name@mail.com" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- organization -->
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">Organization</label>
+                            <input type="text" class="input" name="subject" placeholder="ex: Indvidual" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- subject -->
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">Subject</label>
+                            <input type="text" class="input" name="subject" placeholder="ex: Internship Hire" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- message -->
+                <div class="column is-full">
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">Message</label>
+                            <textarea class="textarea has-fixed-size" placeholder="Ex: Hello world !" required>
+                        </textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- submit -->
+                <div class="column is-full">
+                    <div class="field">
+                        <div class="control has-text-centered">
+                            <input type="submit" class="button is-dark is-medium" value="S E N D">
+                            <input type="hidden" name="_next" value="https://piyush-linux.github.io/web-plant/">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $('.tabs').each(function(index) {
+        var $tabParent = $(this);
+        var $tabs = $tabParent.find('li');
+        var $contents = $tabParent.next('.tabs-content').find('.tab-content');
+        $tabs.click(function() {
+            var curIndex = $(this).index();
+            // toggle tabs
+            $tabs.removeClass('is-active');
+            $tabs.eq(curIndex).addClass('is-active');
+            // toggle contents
+            $contents.removeClass('is-active');
+            $contents.eq(curIndex).addClass('is-active');
+        });
+    });
+    </script>
+</body>
+
+</html>

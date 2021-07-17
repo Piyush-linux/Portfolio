@@ -129,6 +129,11 @@ $f2: Nothing You Could Do;
 // featuer
 #feature{
     background: url('../img/ill/bg.svg') no-repeat fixed center / cover;
+    .card{
+        box-shadow: -1px 17px 20px -4px rgba(112,109,109,0.75);
+-webkit-box-shadow: -1px 17px 20px -4px rgba(112,109,109,0.75);
+-moz-box-shadow: -1px 17px 20px -4px rgba(112,109,109,0.75);
+    }
     .column{
         text-align:center;
         
