@@ -13,16 +13,26 @@ __styling__
 - [x] add animation
 - [ ] pre-loader
 
-_projects_
-- [ ] Web(responsive,clone,animated)
-    - [ ] Full Stack
-    - [ ] JS
-- [ ] API(weather,pokemon,unsplash)
-- [ ] Vue(reusable)
-- [ ] Express
-    - [ ] Flask
-    - [ ] MongoDB
+### Projects
+__website__
+- [ ] web-plant
+- [ ] plane
+- [ ] web-email
+- [ ] delex
+- [ ] [baiju]()
 
+__API__
+- [ ] corona
+- [ ] weather
+- [ ] 
+
+__Vue__
+- [ ] [site-vue](https://site-vue.netlify.app/)
+- [ ] 
+
+__node__
+- [ ] JWT
+- [ ] CRUD
 
 __Responsive__
 - [ ] re-align PJ so that in mobile viw ; bigger one are better one
@@ -48,7 +58,10 @@ Color: #42484C , #FFFFFF
 !Wireframe
 hero:
 sec:
-gallery:
+    1: txt + img
+    2: img + txt
+Dashborad:
+form:
 footer:
 ```
 

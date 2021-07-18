@@ -2,7 +2,7 @@
 @font-face {
   font-family: Kano;
   src: url(../otf/Kano.otf); }
-#hero, #sec article, #gallery .column, .footer {
+#hero, #sec article, .footer {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -101,24 +101,34 @@
         width: 100%;
         font-size: 1rem; } }
 
-#gallery {
-  text-align: center; }
-  #gallery .column:hover {
-    transition: .3s; }
-    #gallery .column:hover span {
-      color: #34495e;
-      font-weight: bolder; }
-  #gallery span {
-    position: absolute;
-    color: transparent;
-    font-size: 2rem; }
-  #gallery img {
-    position: relative;
-    transition: .3s; }
-    #gallery img:hover {
-      transition: .3s;
-      box-shadow: 0px 7px 10px 2px rgba(33, 33, 33, 0.5);
-      opacity: .5; }
+#dashborad .tab-content {
+  display: none; }
+#dashborad .tab-content.is-active {
+  display: block; }
+
+/* mail */
+#mail .input,
+#mail .textarea {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: white;
+  letter-spacing: 2px;
+  color: #323030ad; }
+#mail .input {
+  border-bottom: 3px solid #323030ad; }
+#mail .textarea {
+  border: 2px dashed #323030ad; }
+#mail .input:focus,
+#mail .textarea:focus {
+  background-color: #d0cccc17; }
+#mail .label {
+  color: grey; }
+#mail input[type='submit'] {
+  width: 50%;
+  box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75); }
 
 .footer {
   flex-direction: column;

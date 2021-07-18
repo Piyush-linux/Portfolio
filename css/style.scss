@@ -1,11 +1,13 @@
 // font
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 // media
 @mixin mobile() {
     @media screen and (max-width: 550px) {
         @content;
     }
 }
+
 // variable
 $white: #ecf0f1;
 $teal:#1abc9c;
@@ -20,8 +22,8 @@ $f2: Nothing You Could Do;
 
 // pre
 @font-face {
-  font-family: Kano;
-  src: url(../otf/Kano.otf);
+    font-family: Kano;
+    src: url(../otf/Kano.otf);
 }
 
 %center {
@@ -29,25 +31,33 @@ $f2: Nothing You Could Do;
     justify-content: center;
     align-items: center;
 }
-.f2{
+
+.f2 {
     font-family: Nothing You Could Do;
 }
+
 * {
     font-family: Kano;
-    .iconify{font-size: 3rem;}
+
+    .iconify {
+        font-size: 3rem;
+    }
 }
-.txt{
-    color:$black;
+
+.txt {
+    color: $black;
 }
-.tit{
+
+.tit {
     font-size: 3rem;
     font-weight: lighter;
-    color:$dark;
+    color: $dark;
     letter-spacing: 2px;
-    padding:5%;
+    padding: 5%;
     text-transform: uppercase;
     text-align: center;
-    @include mobile(){
+
+    @include mobile() {
         font-size: 1.7rem;
     }
 }
@@ -81,6 +91,7 @@ $f2: Nothing You Could Do;
 
     .title {
         font-size: 4rem;
+
         @include mobile() {
             font-size: 2rem;
         }
@@ -88,6 +99,7 @@ $f2: Nothing You Could Do;
 
     .subtitle {
         width: 45%;
+
         @include mobile() {
             width: 100%;
             font-size: 1.5rem;
@@ -110,88 +122,149 @@ $f2: Nothing You Could Do;
         height: 100vh;
     }
 }
+
 // sec
 #sec {
-    img{
-    }
+    img {}
+
     @include mobile {
         display: none;
     }
+
     article {
-    @extend %center;
-    flex-direction: column;
-    height: 100%;
-    .iconify{
-        font-size: 3rem;
+        @extend %center;
+        flex-direction: column;
+        height: 100%;
+
+        .iconify {
+            font-size: 3rem;
+        }
     }
 }
-}
+
 // featuer
-#feature{
+#feature {
     background: url('../img/ill/bg.svg') no-repeat fixed center / cover;
-    .card{
-        box-shadow: -1px 17px 20px -4px rgba(112,109,109,0.75);
--webkit-box-shadow: -1px 17px 20px -4px rgba(112,109,109,0.75);
--moz-box-shadow: -1px 17px 20px -4px rgba(112,109,109,0.75);
+
+    .card {
+        box-shadow: -1px 17px 20px -4px rgba(112, 109, 109, 0.75);
+        -webkit-box-shadow: -1px 17px 20px -4px rgba(112, 109, 109, 0.75);
+        -moz-box-shadow: -1px 17px 20px -4px rgba(112, 109, 109, 0.75);
     }
-    .column{
-        text-align:center;
-        
-        @include mobile(){
+
+    .column {
+        text-align: center;
+
+        @include mobile() {
             margin-top: 2rem;
         }
     }
-    .card-content{
-        display:flex;
+
+    .card-content {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    .content{
-        color:$black;
+
+    .content {
+        color: $black;
         width: 90%;
         font-size: 1.2rem;
-        @include mobile(){
-        width: 100%;
-        font-size: 1rem;
+
+        @include mobile() {
+            width: 100%;
+            font-size: 1rem;
 
         }
     }
 }
 
 // gallery
-#gallery {
-    text-align: center;
+// #gallery {
+//     text-align: center;
 
-    .column {
-        @extend %center;
-        &:hover {
-            transition: .3s;
-            span {
-                color: $black;
-                font-weight: bolder;
-            }
+//     .column {
+//         @extend %center;
 
-        }
+//         &:hover {
+//             transition: .3s;
+
+//             span {
+//                 color: $black;
+//                 font-weight: bolder;
+//             }
+
+//         }
+//     }
+
+//     span {
+//         position: absolute;
+//         color: transparent;
+//         font-size: 2rem;
+//     }
+
+//     img {
+//         position: relative;
+//         transition: .3s;
+
+//         &:hover {
+//             transition: .3s;
+//             // margin-bottom: 1rem;
+//             box-shadow: 0px 7px 10px 2px rgba(33, 33, 33, 0.5);
+//             opacity: .5;
+//         }
+//     }
+// }
+
+// Dashborad
+#dashborad {
+
+    .tab-content {
+        display: none;
     }
 
-    span {
-        position: absolute;
-        color: transparent;
-        font-size: 2rem;
+    .tab-content.is-active {
+        display: block;
     }
 
-    img {
-        position: relative;
-        transition: .3s;
-        &:hover {
-            transition: .3s;
-            // margin-bottom: 1rem;
-            box-shadow: 0px 7px 10px 2px rgba(33, 33, 33, 0.5);
-            opacity: .5;
-        }
+}
+
+/* mail */
+#mail {
+
+    .input,
+    .textarea {
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: white;
+        letter-spacing: 2px;
+        color: #323030ad;
+    }
+    .input{
+        border-bottom: 3px solid #323030ad;
+    }
+    .textarea{
+        border: 2px dashed #323030ad;
+    }
+    .input:focus,
+    .textarea:focus {
+        background-color: #d0cccc17;
+    }
+    .label {
+        color: grey;
+    }
+    input[type='submit'] {
+        width: 50%;
+        box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
     }
 }
+
+
+// Footer
 
 .footer {
     @extend %center;
@@ -201,7 +274,8 @@ $f2: Nothing You Could Do;
 
     .iconify {
         padding: 2%;
-        color:#fff;
+        color: #fff;
+
         &:hover {
             color: $teal;
         }
