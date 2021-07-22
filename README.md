@@ -1,16 +1,13 @@
 # Todo's
+- [ ] DashBorad diff ill
 
 __Wireframe__
-- [x] form submision 
-- [x] Project dash_Board
-- [x] mk foot icon light black
+- [x] form submision
 - [ ] end of evry PJ add created by "Piyush"
-- [x] page title and SEO : meta tag's 
 - [ ] make portfolioo project hover text uppercase ALL
 
 __styling__
-- [ ] form 
-- [x] add animation
+- [ ] form styling & respopnsive
 - [ ] pre-loader
 
 ### Projects
@@ -20,6 +17,7 @@ __website__
 - [ ] web-email
 - [ ] delex
 - [ ] [baiju]()
+- light + dark theme
 
 __API__
 - [ ] corona

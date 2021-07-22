@@ -31,6 +31,7 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!-- bulma -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="/home/piyush/Documents/Lib/bulma.min.css"> -->
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -200,10 +201,10 @@
     <!-- DashBorad -->
     <section class="section" id="dashborad">
         <div class="container">
-            <h1 class="title is-2">P O R T F O L I O</h1>
+            <h1 class="title is-2 has-text-centered mb-6">P O R T F O L I O</h1>
             <div class="columns is-multiline">
                 <!-- tab_nav -->
-                <div class="column is-12 tabs is-medium">
+                <div class="column is-12 tabs is-large is-centered">
                     <ul>
                         <!-- tab_nav_1 -->
                         <li class="is-active"><a>
@@ -237,49 +238,151 @@
                     <div class="tab-content is-active">
                         <p>
                             <div class="columns is-vcentered">
-                               <div class="column is-4">
-                                <div class="box">
-                                    <figure class="image is-5by4">
+                                <!-- svg -->
+                                <div class="column is-5">
+                                    <figure class="image">
                                         <img src="./ill/tab1.svg">
                                     </figure>
                                 </div>
-                               </div>
-                               <div class="column is-4">
-                                <div class="box">
-                                    <figure class="image is-5by4">
-                                        <img src="./img/pj/plant.svg">
-                                    </figure>
+                                <!-- pj -->
+                                <div class="column">
+                                    <div class="box">
+                                        <!-- tit -->
+                                        <h1 class="subtitle is-3 has-text-primary">
+                                            B U L M A 
+                                        </h1>
+                                        <hr>
+                                        <!-- tgs -->
+                                        <div class="tags has-text-weight-bold">
+                                            <div class="tag is-danger">h t m l</div>
+                                            <div class="tag is-info">c s s</div>
+                                            <div class="tag is-warning">j s</div>
+                                            <div class="tag is-success is-outlined">s a s s</div>
+                                        </div>
+                                        <!-- web-pj -->
+                                        <!-- web-1 -->
+                                        <div class="box box-main has-background-primary">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">P L A N T</h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- web-2 -->
+                                        <div class="box box-main has-background-primary">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">D E L E X</h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- web-3 -->
+                                        <div class="box box-main has-background-primary">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">E M A I L</h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                               </div>
-                               <div class="column is-4">
-                                <div class="box">
-                                    <figure class="image is-5by4">
-                                        <img src="./img/pj/delex.svg">
-                                    </figure>
-                                </div>
-                               </div>
-                                
                             </div>
                         </p>
                     </div>
-                    <!-- Tab_con-2 -->
-                    <div class="tab-content">
+                    <!-- > Tab_con-2 -->
+                    <div class="tab-content" id="tab-content">
                         <p>
+                            <!-- img -->
                             <div class="columns is-vcentered">
                                 <div class="column is-5">
                                     <figure class="image">
                                         <img src="./ill/tab2.svg">
                                     </figure>
                                 </div>
+                                <!-- con -->
                                 <div class="column">
                                     <div class="box">
+                                        <!-- tit -->
                                         <h1 class="subtitle is-3 has-text-danger">
                                             A P I
                                         </h1>
                                         <hr>
+                                        <!-- tgs -->
                                         <div class="tags has-text-weight-bold">
-                                            <!-- <div class="tag">fetch</div> -->
-                                            <!-- <div class="tag">.env</div> -->
+                                            <div class="tag">fetch()</div>
+                                            <div class="tag">axios</div>
+                                            <div class="tag">covid19</div>
+                                        </div>
+                                        <!-- pj's -->
+
+                                        <!-- 
+                                        box-main
+                                            box-con
+                                                subtitle
+                                                content
+                                            box-foot
+                                                button
+                                         -->
+                                        <!-- api-1 -->
+                                        <div class="box box-main has-background-danger">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">C O R O N A </h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- api-2 -->
+                                        <div class="box box-main has-background-danger">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">W E A T H E R </h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -323,15 +426,69 @@
                                 </div>
                                 <div class="column">
                                     <div class="box">
+                                        <!-- tit -->
                                         <h1 class="subtitle is-3 has-text-success">
                                             N O D E
                                         </h1>
                                         <hr>
+                                        <!-- tgs -->
                                         <div class="tags has-text-weight-bold">
                                             <div class="tag is-success">express</div>
                                             <div class="tag is-danger">body-parser</div>
                                             <div class="tag is-info">JWT</div>
                                             <div class="tag is-dark">dotenv</div>
+                                        </div>
+                                        <!-- node-pjs -->
+                                        <!-- nd-1 -->
+                                        <div class="box box-main has-background-success">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">A U T H E N T I C A T I O N</h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- nd-2 -->
+                                        <div class="box box-main has-background-success">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">Account Manager</h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- nd-3 -->
+                                        <div class="box box-main has-background-success">
+                                            <div class="box-con pl-1">
+                                                <h1 class="subtitle mb-0 has-text-white">N O D E M A I L E R</h1>
+                                                <p class="content is-small has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing, elit.</p>
+                                            </div>
+                                            <div class="box-foot">
+                                                <div class="button is-light is-outlined">
+                                                    <span>
+                                                        VIEW
+                                                    </span>
+                                                    <span class="icon">
+                                                        <span class="iconify" data-icon="ri:eye-2-line" data-inline="false"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -343,9 +500,9 @@
         </div>
     </section>
     <!-- form -->
-    <section class="section" id="mail">
+    <section class="section has-background-white-ter" id="mail">
         <div class="container">
-            <div class="title is-2 has-text-centered">C O N N  E C T</div>
+            <div class="title is-2 has-text-centered">C O N N E C T</div>
             <form action="https://formsubmit.co/4833c9fbb146b8aa44af84f7c8613403" method="POST" class="columns is-vcentered is-multiline">
                 <!-- name -->
                 <div class="column is-half">
@@ -388,8 +545,7 @@
                     <div class="field">
                         <div class="control">
                             <label class="label">Message</label>
-                            <textarea class="textarea has-fixed-size" placeholder="Ex: Hello world !" required>
-                        </textarea>
+                            <textarea class="textarea has-fixed-size" required>Hello there I'm ...</textarea>
                         </div>
                     </div>
                 </div>
@@ -406,7 +562,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="footer has-background-dark has-text-white">
+    <footer class="footer has-background-dark has-text-white pb-5">
         <div class="columns">
             <div class="column has-text-centered">
                 <!-- social media -->

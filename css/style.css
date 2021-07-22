@@ -103,6 +103,9 @@
 
 #dashborad .tab-content {
   display: none; }
+  #dashborad .tab-content .box-main {
+    display: flex;
+    justify-content: space-between; }
 #dashborad .tab-content.is-active {
   display: block; }
 
@@ -114,14 +117,11 @@
   border-radius: 0;
   background-color: white;
   letter-spacing: 2px;
-  color: #323030ad; }
-#mail .input {
-  border-bottom: 3px solid #323030ad; }
-#mail .textarea {
-  border: 2px dashed #323030ad; }
+  color: #323030ad;
+  border-radius: 5px; }
 #mail .input:focus,
 #mail .textarea:focus {
-  background-color: #d0cccc17; }
+  background-color: #f5f5f1; }
 #mail .label {
   color: grey; }
 #mail input[type='submit'] {

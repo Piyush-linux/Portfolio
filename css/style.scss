@@ -218,10 +218,31 @@ $f2: Nothing You Could Do;
 // }
 
 // Dashborad
+/*
+
+box-main
+    box-con
+        subtitle
+        content
+    box-foot
+        button
+*/
 #dashborad {
 
     .tab-content {
         display: none;
+        .box-main{
+            display:flex;
+            justify-content: space-between;
+        }
+        .box-foot{
+            .button{
+                 // background: rgb(7,245,198);
+                // background: linear-gradient(90deg, rgba(7,245,198,0.9037814955083596) 40%, rgba(52,152,208,1) 100%); 
+            }
+            .iconify{
+            }
+        }
     }
 
     .tab-content.is-active {
@@ -229,6 +250,7 @@ $f2: Nothing You Could Do;
     }
 
 }
+
 
 /* mail */
 #mail {
@@ -241,16 +263,11 @@ $f2: Nothing You Could Do;
         background-color: white;
         letter-spacing: 2px;
         color: #323030ad;
-    }
-    .input{
-        border-bottom: 3px solid #323030ad;
-    }
-    .textarea{
-        border: 2px dashed #323030ad;
+        border-radius:5px;
     }
     .input:focus,
     .textarea:focus {
-        background-color: #d0cccc17;
+        background-color: #f5f5f1 ;
     }
     .label {
         color: grey;
