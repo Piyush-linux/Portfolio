@@ -192,7 +192,34 @@ $f2: Nothing You Could Do;
         }
     }
 }
+// form
+#mail {
 
+    .input,
+    .textarea {
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: white;
+        letter-spacing: 2px;
+        color: #323030ad;
+        border-radius:5px;
+    }
+    .input:focus,
+    .textarea:focus {
+        background-color: #f5f5f1 ;
+    }
+    .label {
+        color: grey;
+    }
+    input[type='submit'] {
+        width: 50%;
+        box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 13px 18px -4px rgba(0, 0, 0, 0.75);
+    }
+}
+// footer
 .footer {
     @extend %center;
     flex-direction: column;
